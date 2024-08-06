@@ -6,9 +6,17 @@
         {
           "is_passive": true,
           "is_self_buff": true,
+          "effect": "hp_cp_recover",
+          "calc_type": "number",
+          "amount": 300,
+          "amount_cp": 300
+        },
+        {
+          "is_passive": true,
+          "is_self_buff": true,
           "effect": "damage_reduce",
           "calc_type": "percent",
-          "amount": 5
+          "amount": 20
         }
       ]
     },
@@ -443,15 +451,15 @@
           "is_self_buff": true,
           "effect": "hp_cp_recover",
           "calc_type": "number",
-          "amount": 100,
-          "amount_cp": 100
+          "amount": 300,
+          "amount_cp": 300
         },
         {
           "is_passive": true,
           "is_self_buff": true,
           "effect": "damage_reduce",
           "calc_type": "percent",
-          "amount": 12
+          "amount": 20
         }
       ]
     },
