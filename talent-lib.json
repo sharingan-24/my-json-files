@@ -1,0 +1,471 @@
+{
+            case "talent_insect_skill_1":
+               _loc2_.talent_skill_id = "skill_1075";
+               _loc2_.talent_skill_name = "Beetle Carapace";
+               _loc2_.talent_skill_description = "A special insect shell grows on the body that improves defense and can remove harmful effects. Reduces damage taken and increases purify chance.";
+               _loc2_.talent_skill_order = 1;
+               break;
+            case "talent_insect_skill_2":
+               _loc2_.talent_skill_id = "skill_1076";
+               _loc2_.talent_link_skill_id = "skill_1075";
+               _loc2_.talent_skill_name = "Primal Evolution";
+               _loc2_.talent_skill_description = "Living in harmony with insects has triggered evolution. Increases max HP based on your max CP and recovers CP.";
+               _loc2_.talent_skill_order = 2;
+               break;
+            case "talent_insect_skill_3":
+               _loc2_.talent_skill_id = "skill_1077";
+               _loc2_.talent_link_skill_id = "skill_1076";
+               _loc2_.talent_skill_name = "Pestilence";
+               _loc2_.talent_skill_description = "Attacks the target using your insects to feed on the target\'s chakra. Drains the target\'s CP and Stuns them, if their CP turns to 0.";
+               _loc2_.talent_skill_order = 3;
+               break;
+            case "talent_insect_skill_4":
+               _loc2_.talent_skill_id = "skill_1078";
+               _loc2_.talent_link_skill_id = "skill_1076";
+               _loc2_.talent_skill_name = "Medial Evolution";
+               _loc2_.talent_skill_description = "The evolution progresses and new abilities have become available. Direct CP reduction and drain attacks has a chance to heal the user.";
+               _loc2_.talent_skill_order = 4;
+               break;
+            case "talent_insect_skill_5":
+               _loc2_.talent_skill_id = "skill_1079";
+               _loc2_.talent_link_skill_id = "skill_1077";
+               _loc2_.talent_skill_name = "Ultimate Evolution";
+               _loc2_.talent_skill_description = "The evolution has reached it\'s final state increasing all attack damage. Increases all attack damage based on the user\'s max CP.";
+               _loc2_.talent_skill_order = 5;
+               break;
+            case "talent_insect_skill_6":
+               _loc2_.talent_skill_id = "skill_1080";
+               _loc2_.talent_link_skill_id = "skill_1078";
+               _loc2_.talent_skill_name = "Domination Of Insect";
+               _loc2_.talent_skill_description = "Sends a swarm of rare breed insects to zap it\'s target. Reduces the target\'s CP and inflicts \'Restriction\' status. If the target\'s CP turns to 0 after the attack, the target can\'t recover CP for several turns.";
+               _loc2_.talent_skill_order = 6;
+               break;
+            case "talent_saint_skill_1":
+               _loc2_.talent_skill_id = "skill_1069";
+               _loc2_.talent_skill_name = "Saint Soul";
+               _loc2_.talent_skill_description = "Extensive knowledge of chakra control allows the user to enhance its own life regeneration.";
+               _loc2_.talent_skill_order = 1;
+               break;
+            case "talent_saint_skill_2":
+               _loc2_.talent_skill_id = "skill_1070";
+               _loc2_.talent_link_skill_id = "skill_1069";
+               _loc2_.talent_skill_name = "Saint Physique";
+               _loc2_.talent_skill_description = "Releases the user’s cell regeneration limit when HP hits critical level.";
+               _loc2_.talent_skill_order = 2;
+               break;
+            case "talent_saint_skill_3":
+               _loc2_.talent_skill_id = "skill_1071";
+               _loc2_.talent_link_skill_id = "skill_1070";
+               _loc2_.talent_skill_name = "Saint Fist";
+               _loc2_.talent_skill_description = "Creates a chakra focal point that discharges concentrated shockwaves to purge all positive status from the targets.";
+               _loc2_.talent_skill_order = 3;
+               break;
+            case "talent_saint_skill_4":
+               _loc2_.talent_skill_id = "skill_1072";
+               _loc2_.talent_link_skill_id = "skill_1070";
+               _loc2_.talent_skill_name = "Saint Light";
+               _loc2_.talent_skill_description = "Perfect chakra manipulation allows the user to impart life energy to others.";
+               _loc2_.talent_skill_order = 4;
+               break;
+            case "talent_saint_skill_5":
+               _loc2_.talent_skill_id = "skill_1073";
+               _loc2_.talent_link_skill_id = "skill_1071";
+               _loc2_.talent_skill_name = "Saint Blessing";
+               _loc2_.talent_skill_description = "Absolute chakra control over oneself enables the user to further enhance life regeneration.";
+               _loc2_.talent_skill_order = 5;
+               break;
+            case "talent_saint_skill_6":
+               _loc2_.talent_skill_id = "skill_1074";
+               _loc2_.talent_link_skill_id = "skill_1072";
+               _loc2_.talent_skill_name = "Unyielding Saint";
+               _loc2_.talent_skill_description = "Unleashes the full potential of ‘Saint Power’ by pushing all cells in the body beyond its limit.";
+               _loc2_.talent_skill_order = 6;
+               break;
+            case "talent_eom_skill_1":
+               _loc2_.talent_skill_id = "skill_1018";
+               _loc2_.talent_skill_name = "Eye of Mirror";
+               _loc2_.talent_skill_description = "The awakening of Eye of Mirror grants the user with the ability to copy the jutsu of an enemy.";
+               _loc2_.talent_skill_order = 1;
+               break;
+            case "talent_eom_skill_2":
+               _loc2_.talent_skill_id = "skill_1019";
+               _loc2_.talent_link_skill_id = "skill_1018";
+               _loc2_.talent_skill_name = "Crescent Eye of Mirror";
+               _loc2_.talent_skill_description = "The awakening of Crescent Eye of Mirror grants users with the ability to rebound the effects of genjutsu.";
+               _loc2_.talent_skill_order = 2;
+               break;
+            case "talent_eom_skill_3":
+               _loc2_.talent_skill_id = "skill_1020";
+               _loc2_.talent_link_skill_id = "skill_1019";
+               _loc2_.talent_skill_name = "Mirror of Passion";
+               _loc2_.talent_skill_description = "Advanced Ninjutsu: Generate a violent blaze of flame to burn everything the user sees.";
+               _loc2_.talent_skill_order = 3;
+               break;
+            case "talent_eom_skill_4":
+               _loc2_.talent_skill_id = "skill_1021";
+               _loc2_.talent_link_skill_id = "skill_1019";
+               _loc2_.talent_skill_name = "Mirror of Grace";
+               _loc2_.talent_skill_description = "Advanced Genjutsu: Target is trapped into a world of hallucinations.";
+               _loc2_.talent_skill_order = 4;
+               break;
+            case "talent_eom_skill_5":
+               _loc2_.talent_skill_id = "skill_1022";
+               _loc2_.talent_link_skill_id = "skill_1020";
+               _loc2_.talent_skill_name = "Mirror of Strength";
+               _loc2_.talent_skill_description = "Advanced Ninjutsu: Chakra of user is incarnated into a titan.";
+               _loc2_.talent_skill_order = 5;
+               break;
+            case "talent_eom_skill_6":
+               _loc2_.talent_skill_id = "skill_1023";
+               _loc2_.talent_link_skill_id = "skill_1021";
+               _loc2_.talent_skill_name = "Mirror of Freedom";
+               _loc2_.talent_skill_description = "Advanced Genjutsu: Cast the ultimate genjutsu on own self so as to travel between the world of illusions and the real world.";
+               _loc2_.talent_skill_order = 6;
+               break;
+            case "talent_de_skill_1":
+               _loc2_.talent_skill_id = "skill_1006";
+               _loc2_.talent_skill_name = "Dark Eye";
+               _loc2_.talent_skill_description = "The awakening of Dark Eye grants user with strong vision.";
+               _loc2_.talent_skill_order = 1;
+               break;
+            case "talent_de_skill_2":
+               _loc2_.talent_skill_id = "skill_1007";
+               _loc2_.talent_link_skill_id = "skill_1006";
+               _loc2_.talent_skill_name = "Meridian Kekkai";
+               _loc2_.talent_skill_description = "The Meridian Kekkai grants the user with the ability to rebound damage based on the reduced/absorbed amount of CP.";
+               _loc2_.talent_skill_order = 2;
+               break;
+            case "talent_de_skill_3":
+               _loc2_.talent_skill_id = "skill_1008";
+               _loc2_.talent_link_skill_id = "skill_1006";
+               _loc2_.talent_skill_name = "Acupuncture: Meridian Anesthesia";
+               _loc2_.talent_skill_description = "Anesthetize yourself to reduce damage and recover HP for a number of turns, but interfere with CP.";
+               _loc2_.talent_skill_order = 3;
+               break;
+            case "talent_de_skill_4":
+               _loc2_.talent_skill_id = "skill_1009";
+               _loc2_.talent_link_skill_id = "skill_1007";
+               _loc2_.talent_skill_name = "Acupuncture: Needle Barrage";
+               _loc2_.talent_skill_description = "Visualize the position of meridians of target and give better chance to do critical damage.";
+               _loc2_.talent_skill_order = 4;
+               break;
+            case "talent_de_skill_5":
+               _loc2_.talent_skill_id = "skill_1010";
+               _loc2_.talent_link_skill_id = "skill_1008";
+               _loc2_.talent_skill_name = "Meridian Strengthen";
+               _loc2_.talent_skill_description = "Strengthen your meridian system to recover more chakra.";
+               _loc2_.talent_skill_order = 5;
+               break;
+            case "talent_de_skill_6":
+               _loc2_.talent_skill_id = "skill_1011";
+               _loc2_.talent_link_skill_id = "skill_1009";
+               _loc2_.talent_link_skill_id2 = "skill_1010";
+               _loc2_.talent_skill_name = "Acupuncture: Meridians Destruction";
+               _loc2_.talent_skill_description = "Aim at meridians of target and acupuncture to interfere target\'s flow of chakra in the body.";
+               _loc2_.talent_skill_order = 6;
+               break;
+            case "talent_eightext_skill_1":
+               _loc2_.talent_skill_id = "skill_1000";
+               _loc2_.talent_skill_name = "Soul Punch";
+               _loc2_.talent_skill_description = "Basics: Concentrates chakra on your palm and punch the target.";
+               _loc2_.talent_skill_order = 1;
+               break;
+            case "talent_eightext_skill_2":
+               _loc2_.talent_skill_id = "skill_1001";
+               _loc2_.talent_link_skill_id = "skill_1000";
+               _loc2_.talent_skill_name = "Eight Extremities";
+               _loc2_.talent_skill_description = "Basic Combat: Elementary battle training that increases taijutsu damage.";
+               _loc2_.talent_skill_order = 2;
+               break;
+            case "talent_eightext_skill_3":
+               _loc2_.talent_skill_id = "skill_1002";
+               _loc2_.talent_link_skill_id = "skill_1001";
+               _loc2_.talent_skill_name = "Eight Extremities Fist";
+               _loc2_.talent_skill_description = "Basic Taijutsu: Apply the usage of chakra into taijutsu and give better damage.";
+               _loc2_.talent_skill_order = 3;
+               break;
+            case "talent_eightext_skill_4":
+               _loc2_.talent_skill_id = "skill_1003";
+               _loc2_.talent_link_skill_id = "skill_1001";
+               _loc2_.talent_skill_name = "Eight Extremities Strengthen";
+               _loc2_.talent_skill_description = "Advanced Combat: Fully utilize every part of the body.";
+               _loc2_.talent_skill_order = 4;
+               break;
+            case "talent_eightext_skill_5":
+               _loc2_.talent_skill_id = "skill_1004";
+               _loc2_.talent_link_skill_id = "skill_1003";
+               _loc2_.talent_skill_name = "Extreme Mode";
+               _loc2_.talent_skill_description = "Extreme Mode: Develop every part of the body to a superb condition for a short period of time. (Warning: serious side effects)";
+               _loc2_.talent_skill_order = 5;
+               break;
+            case "talent_eightext_skill_6":
+               _loc2_.talent_skill_id = "skill_1005";
+               _loc2_.talent_link_skill_id = "skill_1004";
+               _loc2_.talent_skill_name = "Ultimate Dance";
+               _loc2_.talent_skill_description = "Advanced Taijutsu: Fatal attack to a target, must be used in Extreme Mode.";
+               _loc2_.talent_skill_order = 6;
+               break;
+            case "talent_dp_skill_1":
+               _loc2_.talent_skill_id = "skill_1012";
+               _loc2_.talent_skill_name = "Onmyouji: Wondrous Doors";
+               _loc2_.talent_skill_description = "Summon the soul of onmyouji to convert target\'s attack damage to HP.";
+               _loc2_.talent_skill_order = 1;
+               break;
+            case "talent_dp_skill_2":
+               _loc2_.talent_skill_id = "skill_1013";
+               _loc2_.talent_skill_name = "Samurai: One Sword";
+               _loc2_.talent_skill_description = "Summon the soul of samurai to attack target with sword.";
+               _loc2_.talent_skill_order = 2;
+               break;
+            case "talent_dp_skill_3":
+               _loc2_.talent_skill_id = "skill_1014";
+               _loc2_.talent_link_skill_id = "skill_1012";
+               _loc2_.talent_skill_name = "Soul of Onmyouji";
+               _loc2_.talent_skill_description = "Summon the soul of onmyouji to protect you from physical damage.";
+               _loc2_.talent_skill_order = 3;
+               break;
+            case "talent_dp_skill_4":
+               _loc2_.talent_skill_id = "skill_1015";
+               _loc2_.talent_link_skill_id = "skill_1013";
+               _loc2_.talent_skill_name = "Soul of Samurai";
+               _loc2_.talent_skill_description = "Summon the soul of samurai to rebound damage.";
+               _loc2_.talent_skill_order = 4;
+               break;
+            case "talent_dp_skill_5":
+               _loc2_.talent_skill_id = "skill_1016";
+               _loc2_.talent_link_skill_id = "skill_1014";
+               _loc2_.talent_link_skill_id2 = "skill_1015";
+               _loc2_.talent_skill_name = "Burial of Dead Bone";
+               _loc2_.talent_skill_description = "Summon gravestones from the underworld to attack all target";
+               _loc2_.talent_skill_order = 5;
+               break;
+            case "talent_dp_skill_6":
+               _loc2_.talent_skill_id = "skill_1017";
+               _loc2_.talent_link_skill_id = "skill_1016";
+               _loc2_.talent_skill_name = "Divine Wind of Onmyousamurai";
+               _loc2_.talent_skill_description = "The fusion of onmyouji and samurai to combine the power of both to attack target.";
+               _loc2_.talent_skill_order = 6;
+               break;
+            case "talent_orochi_skill_1":
+               _loc2_.talent_skill_id = "skill_1024";
+               _loc2_.talent_skill_name = "Orochi\'s Scales";
+               _loc2_.talent_skill_description = "Use the Orochi\'s power to reduce damage taken and recover HP.";
+               _loc2_.talent_skill_order = 1;
+               break;
+            case "talent_orochi_skill_2":
+               _loc2_.talent_skill_id = "skill_1025";
+               _loc2_.talent_link_skill_id = "skill_1024";
+               _loc2_.talent_skill_name = "Orochi\'s Blessing";
+               _loc2_.talent_skill_description = "Orochi\'s blessing grants you with immunity to poison and chance to recover HP when attacking (Bloodfeed).";
+               _loc2_.talent_skill_order = 2;
+               break;
+            case "talent_orochi_skill_3":
+               _loc2_.talent_skill_id = "skill_1026";
+               _loc2_.talent_link_skill_id = "skill_1025";
+               _loc2_.talent_skill_name = "Snake Summoning Technique";
+               _loc2_.talent_skill_description = "Summon a snake to help you inflict poison to your opponent.";
+               _loc2_.talent_skill_order = 3;
+               break;
+            case "talent_orochi_skill_4":
+               _loc2_.talent_skill_id = "skill_1027";
+               _loc2_.talent_link_skill_id = "skill_1025";
+               _loc2_.talent_skill_name = "Snake Binding Technique";
+               _loc2_.talent_skill_description = "Summon snakes to bind your opponent and make them vulnerable.";
+               _loc2_.talent_skill_order = 4;
+               break;
+            case "talent_orochi_skill_5":
+               _loc2_.talent_skill_id = "skill_1028";
+               _loc2_.talent_link_skill_id = "skill_1026";
+               _loc2_.talent_skill_name = "Orochi\'s Roar";
+               _loc2_.talent_skill_description = "Strike fear into your opponent with Orochi\'s Roar.";
+               _loc2_.talent_skill_order = 5;
+               break;
+            case "talent_orochi_skill_6":
+               _loc2_.talent_skill_id = "skill_1029";
+               _loc2_.talent_link_skill_id = "skill_1027";
+               _loc2_.talent_skill_name = "The Circle of Transmigration";
+               _loc2_.talent_skill_description = "Use the power of the Orochi to revive your teammates. This comes at a great expense to your health and chakra.";
+               _loc2_.talent_skill_order = 6;
+               break;
+            case "talent_silhouette_skill_1":
+               _loc2_.talent_skill_id = "skill_1057";
+               _loc2_.talent_skill_name = "Silhouette Capture";
+               _loc2_.talent_skill_description = "Any attack may inflict Capture (debuff) on target. Target under Capture status has lower dodge rate.";
+               _loc2_.talent_skill_order = 1;
+               break;
+            case "talent_silhouette_skill_2":
+               _loc2_.talent_skill_id = "skill_1058";
+               _loc2_.talent_link_skill_id = "skill_1057";
+               _loc2_.talent_skill_name = "Secret Silhouette: Strangle";
+               _loc2_.talent_skill_description = "Restrict and strangle target by manipulating the shadow. Damage tripled when target is in \'Silhouette\' status.";
+               _loc2_.talent_skill_order = 2;
+               break;
+            case "talent_silhouette_skill_3":
+               _loc2_.talent_skill_id = "skill_1059";
+               _loc2_.talent_link_skill_id = "skill_1057";
+               _loc2_.talent_skill_name = "Secret Silhouette: Extinguish";
+               _loc2_.talent_skill_description = "Restrict and stab target with shadow spears. Damage tripled when target is in \'Silhouette\' status.";
+               _loc2_.talent_skill_order = 3;
+               break;
+            case "talent_forest_skill_1":
+               _loc2_.talent_skill_id = "skill_1060";
+               _loc2_.talent_skill_name = "Nature Power";
+               _loc2_.talent_skill_description = "Chance to inflict Nature Power upon using Earth or Water skills (HP & CP Recovery).";
+               _loc2_.talent_skill_order = 1;
+               break;
+            case "talent_forest_skill_2":
+               _loc2_.talent_skill_id = "skill_1061";
+               _loc2_.talent_link_skill_id = "skill_1060";
+               _loc2_.talent_skill_name = "Secret Enraged Forest: Smothering Bind";
+               _loc2_.talent_skill_description = "Entwine target with branches of tree.";
+               _loc2_.talent_skill_order = 2;
+               break;
+            case "talent_forest_skill_3":
+               _loc2_.talent_skill_id = "skill_1062";
+               _loc2_.talent_link_skill_id = "skill_1060";
+               _loc2_.talent_skill_name = "Secret Enraged Forest: Matsuri";
+               _loc2_.talent_skill_description = "Entwine target with explosion of giant branches of a tree.";
+               _loc2_.talent_skill_order = 3;
+               break;
+            case "talent_demon_skill_1":
+               _loc2_.talent_skill_id = "skill_1051";
+               _loc2_.talent_skill_name = "Demon Song";
+               _loc2_.talent_skill_description = "Chance to reduce attack damage by enemy by hitting enemy with thunder-wind ninjutsu.";
+               _loc2_.talent_skill_order = 1;
+               break;
+            case "talent_demon_skill_2":
+               _loc2_.talent_skill_id = "skill_1052";
+               _loc2_.talent_link_skill_id = "skill_1051";
+               _loc2_.talent_skill_name = "Demon Song: Phantom Wave";
+               _loc2_.talent_skill_description = "Play the song of demon to interfere with the attention of target.";
+               _loc2_.talent_skill_order = 2;
+               break;
+            case "talent_demon_skill_3":
+               _loc2_.talent_skill_id = "skill_1053";
+               _loc2_.talent_link_skill_id = "skill_1051";
+               _loc2_.talent_skill_name = "Demon Song: Song of Fantasia";
+               _loc2_.talent_skill_description = "Play the song of demon to temporarily erase jutsu knowledge of target.";
+               _loc2_.talent_skill_order = 3;
+               break;
+            case "talent_lava_skill_1":
+               _loc2_.talent_skill_id = "skill_1054";
+               _loc2_.talent_skill_name = "Explosive Lava";
+               _loc2_.talent_skill_description = "Ignite Lava to increase damage of fire-earth ninjutsu.";
+               _loc2_.talent_skill_order = 1;
+               break;
+            case "talent_lava_skill_2":
+               _loc2_.talent_skill_id = "skill_1055";
+               _loc2_.talent_link_skill_id = "skill_1054";
+               _loc2_.talent_skill_name = "Secret Lava: Lava Shield";
+               _loc2_.talent_skill_description = "Stick target with pieces of lava when target attacks user. Affected target receives extra damage when user attacks with fire-earth ninjutsu.";
+               _loc2_.talent_skill_order = 2;
+               break;
+            case "talent_lava_skill_3":
+               _loc2_.talent_skill_id = "skill_1056";
+               _loc2_.talent_link_skill_id = "skill_1054";
+               _loc2_.talent_skill_name = "Secret Lava: Lava Spirits";
+               _loc2_.talent_skill_description = "Create explosive clay bugs and dispatch them to target.";
+               _loc2_.talent_skill_order = 3;
+               break;
+            case "talent_crystal_skill_1":
+               _loc2_.talent_skill_id = "skill_1063";
+               _loc2_.talent_skill_name = "Absolute Zero Zone";
+               _loc2_.talent_skill_description = "Chance to freeze enemy by hitting enemy with wind-water ninjutsu.";
+               _loc2_.talent_skill_order = 1;
+               break;
+            case "talent_crystal_skill_2":
+               _loc2_.talent_skill_id = "skill_1064";
+               _loc2_.talent_link_skill_id = "skill_1063";
+               _loc2_.talent_skill_name = "Secret Icy Crystal: Hakukage Horo";
+               _loc2_.talent_skill_description = "Freeze down all the moisture and form a armor. Damage will be decrease when being attacked and target will reduce CP.";
+               _loc2_.talent_skill_order = 2;
+               break;
+            case "talent_crystal_skill_3":
+               _loc2_.talent_skill_id = "skill_1065";
+               _loc2_.talent_link_skill_id = "skill_1063";
+               _loc2_.talent_skill_name = "Secret Icy Crystal: Icy Kaleidoscope";
+               _loc2_.talent_skill_description = "Hide yourself in hundreds of crystal and attack target back and forth between the crystals. Wind and Water Jutsu will increase their damage.";
+               _loc2_.talent_skill_order = 2;
+               break;
+            case "talent_vampiric_skill_1":
+               _loc2_.talent_skill_id = "skill_1066";
+               _loc2_.talent_skill_name = "Vampire\'s Touch";
+               _loc2_.talent_skill_description = "Recover CP after damaging your targets. ";
+               _loc2_.talent_skill_order = 1;
+               break;
+            case "talent_vampiric_skill_2":
+               _loc2_.talent_skill_id = "skill_1067";
+               _loc2_.talent_link_skill_id = "skill_1066";
+               _loc2_.talent_skill_name = "Secret: Blood Dragons ";
+               _loc2_.talent_skill_description = "Attack your target with blood dragons and inflict them with a curse.";
+               _loc2_.talent_skill_order = 2;
+               break;
+            case "talent_vampiric_skill_3":
+               _loc2_.talent_skill_id = "skill_1068";
+               _loc2_.talent_link_skill_id = "skill_1066";
+               _loc2_.talent_skill_name = "Secret: Parasitic Virus";
+               _loc2_.talent_skill_description = "Use this parasitic jutsu to attack all of your opponents and drain their blood.";
+               _loc2_.talent_skill_order = 2;
+               break;
+            case "talent_bones_skill_1":
+               _loc2_.talent_skill_id = "skill_1083";
+               _loc2_.talent_skill_name = "Marrow Shield";
+               _loc2_.talent_skill_description = "User gains a passive protective barrier that reduces damage and heals a percentage of their max health when hit with debuffs or negative statuses.";
+               _loc2_.talent_skill_order = 1;
+               break;
+            case "talent_bones_skill_2":
+               _loc2_.talent_skill_id = "skill_1081";
+               _loc2_.talent_link_skill_id = "skill_1083";
+               _loc2_.talent_skill_name = "Zephyr Bone Barrage";
+               _loc2_.talent_skill_description = "User swiftly conjures and launches a storm of bone shards at their enemies, lowering their defense leaving them vulnerable.";
+               _loc2_.talent_skill_order = 2;
+               break;
+            case "talent_bones_skill_3":
+               _loc2_.talent_skill_id = "skill_1082";
+               _loc2_.talent_link_skill_id = "skill_1083";
+               _loc2_.talent_skill_name = "Incursion of the Ivory Spikes";
+               _loc2_.talent_skill_description = "Attack your target with an incursion of spiky bones which weakens them and slows them down.";
+               _loc2_.talent_skill_order = 2;
+               break;
+            case "talent_eoa_skill_1":
+               _loc2_.talent_skill_id = "skill_1030";
+               _loc2_.talent_skill_name = "Eye of Clairvoyance";
+               _loc2_.talent_skill_description = "Use the Eye of Time to see into the future, reduce cooldowns and possible chance to use jutsu without CP.";
+               _loc2_.talent_skill_order = 1;
+               break;
+            case "talent_eoa_skill_2":
+               _loc2_.talent_skill_id = "skill_1031";
+               _loc2_.talent_link_skill_id = "skill_1030";
+               _loc2_.talent_skill_name = "Chakra Enlightnment";
+               _loc2_.talent_skill_description = "Use the power of the Eye of Attrition to increase damage and CP.";
+               _loc2_.talent_skill_order = 2;
+               break;
+            case "talent_eoa_skill_3":
+               _loc2_.talent_skill_id = "skill_1034";
+               _loc2_.talent_link_skill_id = "skill_1031";
+               _loc2_.talent_skill_name = "Time Illusion";
+               _loc2_.talent_skill_description = "Use the power of time illusions to put your target in a state of chaos.";
+               _loc2_.talent_skill_order = 3;
+               break;
+            case "talent_eoa_skill_4":
+               _loc2_.talent_skill_id = "skill_1033";
+               _loc2_.talent_link_skill_id = "skill_1031";
+               _loc2_.talent_skill_name = "Art Of Summoning";
+               _loc2_.talent_skill_description = "Summon a tailed beast and attack your opponents with their mighty power.";
+               _loc2_.talent_skill_order = 4;
+               break;
+            case "talent_eoa_skill_5":
+               _loc2_.talent_skill_id = "skill_1032";
+               _loc2_.talent_link_skill_id = "skill_1034";
+               _loc2_.talent_skill_name = "Space–Time Migration";
+               _loc2_.talent_skill_description = "With the power of space-time, you can remove all debuffs, lower damage and reduce CP consumption.";
+               _loc2_.talent_skill_order = 5;
+               break;
+            case "talent_eoa_skill_6":
+               _loc2_.talent_skill_id = "skill_1035";
+               _loc2_.talent_link_skill_id = "skill_1033";
+               _loc2_.talent_skill_name = "Time Seal";
+               _loc2_.talent_skill_description = "Use the power of the gods to remove your targets buffs and reduce their CP.";
+               _loc2_.talent_skill_order = 6;
+               break;
+        }
