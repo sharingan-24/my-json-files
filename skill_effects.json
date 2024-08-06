@@ -10400,6 +10400,28 @@
       ]
     },
     {
+      "item_id": "skill_2161",
+      "effects": [
+        {
+          "is_passive": false,
+          "is_self_buff": false,
+          "effect": "flaming",
+          "calc_type": "percent",
+          "duration": 3,
+          "amount": 15
+        },
+        {
+          "is_passive":  tru,
+          "is_self_buff": true,
+          "no_disperse": true,
+          "effect": "cp_cost",
+          "calc_type": "percent",
+          "duration":  5,
+          "amount": 0          
+        }
+      ]
+    },
+    {
       "item_id": "skill_10330",
       "effects": [
         {
