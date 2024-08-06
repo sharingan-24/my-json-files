@@ -10411,13 +10411,13 @@
           "amount": 15
         },
         {
-          "is_passive":  tru,
+          "is_passive":  false,
           "is_self_buff": true,
           "no_disperse": true,
           "effect": "cp_cost",
           "calc_type": "percent",
           "duration":  5,
-          "amount": 0          
+          "amount": 0
         }
       ]
     },
