@@ -66,9 +66,23 @@
         {
           "is_passive": true,
           "is_self_buff": true,
-          "effect": "max_cp_increase",
+          "effect": "increase_agility",
           "calc_type": "number",
-          "amount": 100
+          "amount": 10
+        },
+        {
+          "is_passive": true,
+          "is_self_buff": true,
+          "effect": "increase_purify",
+          "calc_type": "percent",
+          "amount": 28
+        },
+        {
+          "is_passive": true,
+          "is_self_buff": true,
+          "effect": "increase_dodge",
+          "calc_type": "percent",
+          "amount": 35
         }
       ]
     },
@@ -2366,14 +2380,21 @@
           "is_self_buff": true,
           "effect": "increase_agility",
           "calc_type": "number",
-          "amount": 1
+          "amount": 10
+        },
+        {
+          "is_passive": true,
+          "is_self_buff": true,
+          "effect": "increase_purify",
+          "calc_type": "percent",
+          "amount": 28
         },
         {
           "is_passive": true,
           "is_self_buff": true,
           "effect": "increase_dodge",
-          "calc_type": "number",
-          "amount": 4
+          "calc_type": "percent",
+          "amount": 35
         }
       ]
     },
