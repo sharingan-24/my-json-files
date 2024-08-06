@@ -1,0 +1,416 @@
+{
+      
+      public static var weaponList = ["wpn_265","wpn_261","wpn_250","wpn_262","wpn_264","wpn_255","wpn_256","wpn_263","wpn_257","wpn_258","wpn_259","wpn_251","wpn_254","wpn_260","wpn_253","wpn_252"];
+      
+      public static var petList = [];
+      
+      public static var backList = ["wpn_191","wpn_192","wpn_193","wpn_194","wpn_195","wpn_196","wpn_197","wpn_198","wpn_199","wpn_233"];
+      
+      public static var accList = ["wpn_211","wpn_213","wpn_215","wpn_217","wpn_219","wpn_221","wpn_223","wpn_225","wpn_227","wpn_229"];
+      
+      public static var skillList = [];
+      
+      public static var hairList = [];
+      
+      public static var setList = [];
+       
+      
+      public function BlacksmithData()
+      {
+         super();
+      }
+        {
+            case "wpn_150":
+               _loc2_.item_materials = ["wpn_119","material_01","material_02","material_03","material_04","material_05"];
+               _loc2_.item_mat_price = ["1","20","15","10","8","4"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_151":
+               _loc2_.item_materials = ["wpn_109","material_01","material_02","material_03","material_04","material_05"];
+               _loc2_.item_mat_price = ["1","20","15","10","8","4"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_152":
+               _loc2_.item_materials = ["wpn_115","material_01","material_02","material_03","material_04","material_05"];
+               _loc2_.item_mat_price = ["1","20","15","10","8","4"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_153":
+               _loc2_.item_materials = ["wpn_112","material_01","material_02","material_03","material_04","material_05"];
+               _loc2_.item_mat_price = ["1","20","15","10","8","4"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_154":
+               _loc2_.item_materials = ["wpn_118","material_01","material_02","material_03","material_04","material_05"];
+               _loc2_.item_mat_price = ["1","20","15","10","8","4"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_155":
+               _loc2_.item_materials = ["wpn_401","material_01","material_02","material_03","material_04","material_05"];
+               _loc2_.item_mat_price = ["1","20","15","10","8","4"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_156":
+               _loc2_.item_materials = ["wpn_117","material_01","material_02","material_03","material_04","material_05"];
+               _loc2_.item_mat_price = ["1","20","15","10","8","4"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_157":
+               _loc2_.item_materials = ["wpn_113","material_01","material_02","material_03","material_04","material_05"];
+               _loc2_.item_mat_price = ["1","20","15","10","8","4"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_300":
+               _loc2_.item_materials = ["wpn_297","material_01","material_02","material_03","material_04","material_05"];
+               _loc2_.item_mat_price = ["1","20","15","10","8","4"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_299":
+               _loc2_.item_materials = ["wpn_298","material_01","material_02","material_03","material_04","material_05"];
+               _loc2_.item_mat_price = ["1","20","15","10","8","4"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_298":
+               _loc2_.item_materials = ["wpn_338","material_01","material_02","material_03","material_04","material_05"];
+               _loc2_.item_mat_price = ["1","10","8","6","3","1"];
+               _loc2_.item_token_price = "400";
+               break;
+            case "wpn_297":
+               _loc2_.item_materials = ["wpn_296","material_01","material_02","material_03","material_04","material_05"];
+               _loc2_.item_mat_price = ["1","10","8","6","3","1"];
+               _loc2_.item_token_price = "600";
+               break;
+            case "wpn_296":
+               _loc2_.item_materials = ["wpn_130","material_01","material_02"];
+               _loc2_.item_mat_price = ["1","5","3"];
+               _loc2_.item_token_price = "400";
+               break;
+            case "wpn_295":
+               _loc2_.item_materials = ["wpn_136","material_01","material_02","material_03"];
+               _loc2_.item_mat_price = ["1","5","3","2"];
+               _loc2_.item_token_price = "400";
+               break;
+            case "wpn_293":
+               _loc2_.item_materials = ["wpn_135","material_01","material_02"];
+               _loc2_.item_mat_price = ["1","5","3"];
+               _loc2_.item_token_price = "200";
+               break;
+            case "wpn_292":
+               _loc2_.item_materials = ["wpn_133","material_01","material_02"];
+               _loc2_.item_mat_price = ["1","5","3"];
+               _loc2_.item_token_price = "600";
+               break;
+            case "wpn_291":
+               _loc2_.item_materials = ["wpn_132","material_01","material_02","material_03","material_04"];
+               _loc2_.item_mat_price = ["1","4","3","2","1"];
+               _loc2_.item_token_price = "400";
+               break;
+            case "wpn_290":
+               _loc2_.item_materials = ["wpn_137","material_01","material_02","material_03","material_04","material_05"];
+               _loc2_.item_mat_price = ["1","10","8","6","3","1"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_289":
+               _loc2_.item_materials = ["wpn_134","material_01","material_02"];
+               _loc2_.item_mat_price = ["1","3","1"];
+               _loc2_.item_token_price = "200";
+               break;
+            case "wpn_294":
+               _loc2_.item_materials = ["wpn_14","material_01","material_02"];
+               _loc2_.item_mat_price = ["1","5","3"];
+               _loc2_.item_token_price = "200";
+               break;
+            case "wpn_288":
+               _loc2_.item_materials = ["wpn_287","material_01","material_02","material_03","material_04","material_05"];
+               _loc2_.item_mat_price = ["1","20","15","10","8","4"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_287":
+               _loc2_.item_materials = ["wpn_269","material_01","material_02","material_03","material_04","material_05"];
+               _loc2_.item_mat_price = ["1","15","10","8","5","2"];
+               _loc2_.item_token_price = "600";
+               break;
+            case "wpn_286":
+               _loc2_.item_materials = ["wpn_285","material_01","material_02","material_03","material_04","material_05","material_06"];
+               _loc2_.item_mat_price = ["1","30","20","15","10","5","1"];
+               _loc2_.item_token_price = "1000";
+               break;
+            case "wpn_285":
+               _loc2_.item_materials = ["wpn_284","material_01","material_02","material_03","material_04","material_05"];
+               _loc2_.item_mat_price = ["1","20","15","10","8","4"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_284":
+               _loc2_.item_materials = ["wpn_259","material_01","material_02","material_03","material_04","material_05"];
+               _loc2_.item_mat_price = ["1","17","12","10","6","3"];
+               _loc2_.item_token_price = "600";
+               break;
+            case "wpn_283":
+               _loc2_.item_materials = ["wpn_268","material_01","material_02","material_03","material_04","material_05"];
+               _loc2_.item_mat_price = ["1","15","10","8","5","2"];
+               _loc2_.item_token_price = "600";
+               break;
+            case "wpn_282":
+               _loc2_.item_materials = ["wpn_258","material_01","material_02","material_03","material_04","material_05"];
+               _loc2_.item_mat_price = ["1","15","10","8","5","2"];
+               _loc2_.item_token_price = "600";
+               break;
+            case "wpn_281":
+               _loc2_.item_materials = ["wpn_257","material_01","material_02","material_03","material_04","material_05"];
+               _loc2_.item_mat_price = ["1","17","12","10","6","3"];
+               _loc2_.item_token_price = "600";
+               break;
+            case "wpn_280":
+               _loc2_.item_materials = ["wpn_256","material_01","material_02","material_03","material_04","material_05"];
+               _loc2_.item_mat_price = ["1","15","10","8","5","2"];
+               _loc2_.item_token_price = "600";
+               break;
+            case "wpn_279":
+               _loc2_.item_materials = ["wpn_278","material_01","material_02","material_03","material_04","material_05"];
+               _loc2_.item_mat_price = ["1","20","15","10","8","4"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_278":
+               _loc2_.item_materials = ["wpn_255","material_01","material_02","material_03","material_04","material_05"];
+               _loc2_.item_mat_price = ["1","10","8","6","3","1"];
+               _loc2_.item_token_price = "400";
+               break;
+            case "wpn_277":
+               _loc2_.item_materials = ["wpn_108","material_01","material_02","material_03","material_04","material_05"];
+               _loc2_.item_mat_price = ["1","17","12","10","6","3"];
+               _loc2_.item_token_price = "600";
+               break;
+            case "wpn_276":
+               _loc2_.item_materials = ["wpn_107","material_01","material_02","material_03","material_04","material_05"];
+               _loc2_.item_mat_price = ["1","17","12","10","6","3"];
+               _loc2_.item_token_price = "600";
+               break;
+            case "wpn_275":
+               _loc2_.item_materials = ["wpn_131","material_01","material_02","material_03","material_04","material_05"];
+               _loc2_.item_mat_price = ["1","10","8","6","3","1"];
+               _loc2_.item_token_price = "400";
+               break;
+            case "wpn_274":
+               _loc2_.item_materials = ["wpn_31","material_01","material_02","material_03","material_04"];
+               _loc2_.item_mat_price = ["1","4","3","2","1"];
+               _loc2_.item_token_price = "400";
+               break;
+            case "wpn_273":
+               _loc2_.item_materials = ["wpn_28","material_01","material_02","material_03","material_04"];
+               _loc2_.item_mat_price = ["1","4","3","2","1"];
+               _loc2_.item_token_price = "400";
+               break;
+            case "wpn_272":
+               _loc2_.item_materials = ["wpn_106","material_01","material_02","material_03","material_04"];
+               _loc2_.item_mat_price = ["1","4","3","2","1"];
+               _loc2_.item_token_price = "400";
+               break;
+            case "wpn_271":
+               _loc2_.item_materials = ["wpn_22","material_01","material_02","material_03","material_04"];
+               _loc2_.item_mat_price = ["1","4","3","2","1"];
+               _loc2_.item_token_price = "400";
+               break;
+            case "wpn_270":
+               _loc2_.item_materials = ["wpn_19","material_01","material_02"];
+               _loc2_.item_mat_price = ["1","5","3"];
+               _loc2_.item_token_price = "400";
+               break;
+            case "wpn_269":
+               _loc2_.item_materials = ["wpn_17","material_01","material_02","material_03","material_04"];
+               _loc2_.item_mat_price = ["1","4","3","2","1"];
+               _loc2_.item_token_price = "400";
+               break;
+            case "wpn_268":
+               _loc2_.item_materials = ["wpn_04","material_01","material_02"];
+               _loc2_.item_mat_price = ["1","5","3"];
+               _loc2_.item_token_price = "400";
+               break;
+            case "wpn_267":
+               _loc2_.item_materials = ["wpn_25","material_01","material_02","material_03","material_04"];
+               _loc2_.item_mat_price = ["1","4","3","2","1"];
+               _loc2_.item_token_price = "400";
+               break;
+            case "wpn_266":
+               _loc2_.item_materials = ["wpn_20","material_01","material_02","material_03"];
+               _loc2_.item_mat_price = ["1","3","3","3"];
+               _loc2_.item_token_price = "400";
+               break;
+            case "wpn_211":
+               _loc2_.item_materials = ["wpn_210","material_01","material_02","material_03"];
+               _loc2_.item_mat_price = ["1","3","2","1"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_213":
+               _loc2_.item_materials = ["wpn_212","material_01","material_02","material_03"];
+               _loc2_.item_mat_price = ["1","3","2","1"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_215":
+               _loc2_.item_materials = ["wpn_214","material_01","material_02","material_03"];
+               _loc2_.item_mat_price = ["1","3","2","1"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_217":
+               _loc2_.item_materials = ["wpn_216","material_01","material_02","material_03"];
+               _loc2_.item_mat_price = ["1","3","2","1"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_219":
+               _loc2_.item_materials = ["wpn_218","material_01","material_02","material_03"];
+               _loc2_.item_mat_price = ["1","3","2","1"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_221":
+               _loc2_.item_materials = ["wpn_220","material_01","material_02","material_03"];
+               _loc2_.item_mat_price = ["1","3","2","1"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_223":
+               _loc2_.item_materials = ["wpn_222","material_01","material_02","material_03"];
+               _loc2_.item_mat_price = ["1","3","2","1"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_225":
+               _loc2_.item_materials = ["wpn_224","material_01","material_02","material_03"];
+               _loc2_.item_mat_price = ["1","3","2","1"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_227":
+               _loc2_.item_materials = ["wpn_226","material_01","material_02","material_03"];
+               _loc2_.item_mat_price = ["1","3","2","1"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_229":
+               _loc2_.item_materials = ["wpn_228","material_01","material_02","material_03","material_04","material_05","material_06"];
+               _loc2_.item_mat_price = ["1","15","12","10","8","6","3"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_250":
+               _loc2_.item_materials = ["wpn_05","material_01"];
+               _loc2_.item_mat_price = ["1","5"];
+               _loc2_.item_token_price = "400";
+               break;
+            case "wpn_251":
+               _loc2_.item_materials = ["wpn_16","material_01","material_02"];
+               _loc2_.item_mat_price = ["1","5","3"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_252":
+               _loc2_.item_materials = ["wpn_32","material_01","material_02","material_03","material_04","material_05"];
+               _loc2_.item_mat_price = ["1","10","8","6","3","1"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_253":
+               _loc2_.item_materials = ["wpn_111","material_01","material_02","material_03","material_04"];
+               _loc2_.item_mat_price = ["1","10","6","4","3"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_254":
+               _loc2_.item_materials = ["wpn_104","material_01","material_02","material_03"];
+               _loc2_.item_mat_price = ["1","5","3","2"];
+               _loc2_.item_token_price = "400";
+               break;
+            case "wpn_255":
+               _loc2_.item_materials = ["wpn_101","material_01","material_02"];
+               _loc2_.item_mat_price = ["1","3","1"];
+               _loc2_.item_token_price = "300";
+               break;
+            case "wpn_256":
+               _loc2_.item_materials = ["wpn_128","material_01","material_02"];
+               _loc2_.item_mat_price = ["1","5","1"];
+               _loc2_.item_token_price = "600";
+               break;
+            case "wpn_257":
+               _loc2_.item_materials = ["wpn_102","material_01","material_02","material_03"];
+               _loc2_.item_mat_price = ["1","2","2","1"];
+               _loc2_.item_token_price = "300";
+               break;
+            case "wpn_258":
+               _loc2_.item_materials = ["wpn_103","material_01","material_02","material_03"];
+               _loc2_.item_mat_price = ["1","3","2","1"];
+               _loc2_.item_token_price = "300";
+               break;
+            case "wpn_259":
+               _loc2_.item_materials = ["wpn_15","material_01","material_02"];
+               _loc2_.item_mat_price = ["1","5","3"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_260":
+               _loc2_.item_materials = ["wpn_105","material_01","material_02","material_03","material_04"];
+               _loc2_.item_mat_price = ["1","4","3","2","1"];
+               _loc2_.item_token_price = "400";
+               break;
+            case "wpn_261":
+               _loc2_.item_materials = ["wpn_01","material_01"];
+               _loc2_.item_mat_price = ["1","3"];
+               _loc2_.item_token_price = "400";
+               break;
+            case "wpn_262":
+               _loc2_.item_materials = ["wpn_250","material_01","material_02","material_03"];
+               _loc2_.item_mat_price = ["1","2","2","1"];
+               _loc2_.item_token_price = "200";
+               break;
+            case "wpn_263":
+               _loc2_.item_materials = ["wpn_10","material_01","material_02"];
+               _loc2_.item_mat_price = ["1","5","3"];
+               _loc2_.item_token_price = "600";
+               break;
+            case "wpn_264":
+               _loc2_.item_materials = ["wpn_129","material_01","material_02"];
+               _loc2_.item_mat_price = ["1","3","1"];
+               _loc2_.item_token_price = "500";
+               break;
+            case "wpn_265":
+               _loc2_.item_materials = ["wpn_03","material_01"];
+               _loc2_.item_mat_price = ["1","1"];
+               _loc2_.item_token_price = "100";
+               break;
+            case "wpn_191":
+               _loc2_.item_materials = ["wpn_201","material_01","material_02","material_03"];
+               _loc2_.item_mat_price = ["1","3","2","1"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_192":
+               _loc2_.item_materials = ["wpn_202","material_01","material_02","material_03"];
+               _loc2_.item_mat_price = ["1","5","3","3"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_193":
+               _loc2_.item_materials = ["wpn_203","material_01","material_02","material_03"];
+               _loc2_.item_mat_price = ["1","8","5","3"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_194":
+               _loc2_.item_materials = ["wpn_205","material_01","material_02","material_03"];
+               _loc2_.item_mat_price = ["1","10","7","5"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_195":
+               _loc2_.item_materials = ["wpn_204","material_01","material_02","material_03"];
+               _loc2_.item_mat_price = ["1","10","7","5"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_196":
+               _loc2_.item_materials = ["wpn_206","material_01","material_02","material_03","material_04","material_05"];
+               _loc2_.item_mat_price = ["1","8","5","2","1","2"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_197":
+               _loc2_.item_materials = ["wpn_207","material_01","material_02","material_03","material_04","material_05"];
+               _loc2_.item_mat_price = ["1","10","8","6","4","2"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_198":
+               _loc2_.item_materials = ["wpn_208","material_01","material_02","material_03","material_04","material_05"];
+               _loc2_.item_mat_price = ["1","12","10","8","6","4"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_199":
+               _loc2_.item_materials = ["wpn_209","material_01","material_02","material_03","material_04","material_05"];
+               _loc2_.item_mat_price = ["1","15","12","10","8","6"];
+               _loc2_.item_token_price = "800";
+               break;
+            case "wpn_233":
+               _loc2_.item_materials = ["wpn_232","material_01","material_02","material_03","material_04","material_05","material_06"];
+               _loc2_.item_mat_price = ["1","15","12","10","8","6","3"];
+               _loc2_.item_token_price = "800";
