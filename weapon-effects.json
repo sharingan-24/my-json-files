@@ -22,6 +22,47 @@
       ]
     },
     {
+      "item_id": "wpn_01",
+      "effects": [
+        {
+          "is_passive": true,
+          "is_self_buff": true,
+          "effect": "max_cp_increase",
+          "calc_type": "number",
+          "amount": 3560
+        },
+        {
+          "is_passive": true,
+          "is_self_buff": true,
+          "effect": "max_hp_increase",
+          "calc_type": "number",
+          "amount": 2960
+        },
+        {
+          "is_passive": true,
+          "is_self_buff": true,
+          "effect": "increase_accuracy",
+          "calc_type": "percent",
+          "amount": 25
+        },
+        {
+          "is_passive": true,
+          "is_self_buff": false,
+          "effect": "weapon_burn",
+          "calc_type": "percent",
+          "duration": 4,
+          "amount": 7
+        },
+        {
+          "is_passive": false,
+          "is_self_buff": false,
+          "effect": "disperse",
+          "calc_type": "percent",
+          "amount": 60
+        }
+      ]
+    },  
+    {
       "item_id": "wpn_192",
       "effects": [
         {
