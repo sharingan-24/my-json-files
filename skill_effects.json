@@ -1296,7 +1296,7 @@
           "is_self_buff": false,
           "effect": "restriction",
           "calc_type": "number",
-          "duration": 3,
+          "duration": 10,
           "amount": 0
         },
         {
@@ -1305,7 +1305,7 @@
           "effect": "reduce_hp",
           "calc_type": "percent",
           "duration": 3,
-          "amount": 10
+          "amount": 60
         }
       ]
     },
@@ -10534,6 +10534,14 @@
           "calc_type": "percent",
           "duration": 1,
           "amount": 90
+        },
+        {
+          "is_passive": false,
+          "is_self_buff": false,
+          "effect": "reduce_hp",
+          "calc_type": "percent",
+          "duration": 3,
+          "amount": 50
         }
       ]
     },
