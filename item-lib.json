@@ -3717,6 +3717,101 @@
       }
     },
     {
+      "item_id": "set_9999_0",
+      "effects": {
+        "item_id": "set_9999_0",
+        "item_type": "set",
+        "item_name": "Akatsuki Suit",
+        "item_level": 1,
+        "item_description": "Akatsuki Suit from Sana Sharingan.",
+        "item_damage": 0,
+        "item_premium": false,
+        "item_buyable": false,
+        "item_sellable": false,
+        "item_buyable_clan": false,
+        "item_price_gold": 0,
+        "item_price_tokens": 0,
+        "item_price_prestige": 0,
+        "item_sell_price": 0
+      }
+    },
+    {
+      "item_id": "set_100000_0",
+      "effects": {
+        "item_id": "set_100000_0",
+        "item_type": "set",
+        "item_name": "Chakra Jinchuriki Kyubi Perfect Suit",
+        "item_level": 1,
+        "item_description": "Chakra from Tailed Beast Jinchuriki Kyubi from Sana Sharingan.",
+        "item_damage": 0,
+        "item_premium": false,
+        "item_buyable": false,
+        "item_sellable": false,
+        "item_buyable_clan": false,
+        "item_price_gold": 0,
+        "item_price_tokens": 0,
+        "item_price_prestige": 0,
+        "item_sell_price": 0
+      }
+    },
+    {
+      "item_id": "set_100001_0",
+      "effects": {
+        "item_id": "set_100001_0",
+        "item_type": "set",
+        "item_name": "4th Kage's Suit",
+        "item_level": 1,
+        "item_description": "Yondaime Suit from Sana Sharingan.",
+        "item_damage": 0,
+        "item_premium": false,
+        "item_buyable": false,
+        "item_sellable": false,
+        "item_buyable_clan": false,
+        "item_price_gold": 0,
+        "item_price_tokens": 0,
+        "item_price_prestige": 0,
+        "item_sell_price": 0
+      }
+    },
+    {
+      "item_id": "set_100002_0",
+      "effects": {
+        "item_id": "set_100002_0",
+        "item_type": "set",
+        "item_name": "Chakra Jhincuriki Kyubi (97%) Suit",
+        "item_level": 1,
+        "item_description": "Chakra from Tailed Beast Jinchuriki Kyubi (97%) from Sana Sharingan.",
+        "item_damage": 0,
+        "item_premium": false,
+        "item_buyable": false,
+        "item_sellable": false,
+        "item_buyable_clan": false,
+        "item_price_gold": 0,
+        "item_price_tokens": 0,
+        "item_price_prestige": 0,
+        "item_sell_price": 0
+      }
+    },
+    {
+      "item_id": "set_100003_0",
+      "effects": {
+        "item_id": "set_100003_0",
+        "item_type": "set",
+        "item_name": "High School of The God Suit",
+        "item_level": 1,
+        "item_description": "High School of The God Suit from Sana Sharingan.",
+        "item_damage": 0,
+        "item_premium": false,
+        "item_buyable": false,
+        "item_sellable": false,
+        "item_buyable_clan": false,
+        "item_price_gold": 0,
+        "item_price_tokens": 0,
+        "item_price_prestige": 0,
+        "item_sell_price": 0
+      }
+    },
+    {
       "item_id": "wpn_01",
       "effects": {
         "item_id": "wpn_01",
