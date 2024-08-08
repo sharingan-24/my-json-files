@@ -2207,6 +2207,26 @@
       }
     },
     {
+            "item_id": "hair_9999_0",
+            "effects": {
+                "item_id": "hair_9999_0",
+                "item_type": "hair",
+                "item_name": "Kakashi Hatake Hairstyle",
+                "item_level": 1,
+                "item_description": "Hairstyle Kakashi Hatake From Sana Sharingan",
+                "item_damage": 0,
+                "item_premium": false,
+                "item_buyable": false,
+                "item_sellable": false,
+                "item_buyable_clan": false,
+                "item_price_gold": 0,
+                "item_price_tokens": 0,
+                "item_price_prestige": 0,
+                "item_price_pvp": 0,
+                "item_sell_price": 0
+            }
+        },
+    {
       "item_id": "set_01_0",
       "effects": {
         "item_id": "set_01_0",
