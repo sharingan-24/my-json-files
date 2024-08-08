@@ -51,7 +51,7 @@
           "effect": "weapon_burn",
           "calc_type": "percent",
           "duration": 4,
-          "amount": 7
+          "amount": 100
         },
         {
           "is_passive": false,
