@@ -9587,11 +9587,11 @@
         {
           "is_passive": false,
           "is_self_buff": false,
-          "effect": "instant_reduce_cp",
+          "effect": "instant_reduce_hp",
           "calc_type": "percent",
           "reduce_type": "MAX",
           "duration": 0,
-          "amount": 15
+          "amount": 100
         },
         {
           "is_passive": false,
