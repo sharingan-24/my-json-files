@@ -40,70 +40,6 @@
       ]
     },
     {
-      "item_id": "skill_6050",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "bleeding",
-          "calc_type": "percent",
-          "duration": 5,
-          "amount": 60
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "internal_injury",
-          "calc_type": "number",
-          "duration": 5,
-          "amount": 0
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "burning",
-          "calc_type": "percent",
-          "reduce_type": "MAX",
-          "duration": 5,
-          "amount": 12
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": true,
-          "effect": "lightning_armor",
-          "calc_type": "percent",
-          "duration": 5,
-          "amount": 40
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": true,
-          "effect": "stealth",
-          "calc_type": "percent",
-          "duration": 5,
-          "amount": 40,
-          "amount_protection": 40
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "reduce_cp",
-          "calc_type": "percent",
-          "duration": 5,
-          "amount": 40
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "instant_reduce_hp",
-          "calc_type": "percent",
-          "reduce_type": "MAX",
-          "duration": 0,
-          "amount": 25
-        }
-      ]
-    },
-    {
       "item_id": "skill_34",
       "effects": [
         {
@@ -113,96 +49,6 @@
           "calc_type": "number",
           "duration": 2,
           "amount": 0
-        }
-      ]
-    },
-    {
-      "item_id": "skill_10850",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": true,
-          "effect": "full_critical",
-          "calc_type": "percent"
-        }
-      ]
-    },
-    {
-      "item_id": "skill_10860",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": true,
-          "effect": "debuff_clear",
-          "calc_type": "number",
-          "duration": 0,
-          "amount": 0
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "disperse",
-          "calc_type": "number",
-          "duration": 0,
-          "amount": 0
-        }
-      ]
-    },
-    {
-      "item_id": "skill_10880",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": true,
-          "effect": "heal",
-          "calc_type": "percent",
-          "amount": 50
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": true,
-          "effect": "lightning_armor",
-          "calc_type": "percent",
-          "duration": 5,
-          "amount": 60
-        }
-      ]
-    },
-    {
-      "item_id": "skill_10890",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": true,
-          "effect": "absorb_buff",
-          "amount": 2
-        }
-      ]
-    },
-    {
-      "item_id": "skill_10810",
-      "effects": [
-        {
-          "is_self_buff": false,
-          "is_debuff": true,
-          "effect": "vulnerable",
-          "effect_name": "Vulnerable",
-          "duration": 3,
-          "calc_type": "percent",
-          "amount": 60
-        }
-      ]
-    },
-    {
-      "item_id": "skill_2009",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "bleeding",
-          "calc_type": "percent",
-          "duration": 2,
-          "amount": 30
         }
       ]
     },
@@ -440,79 +286,6 @@
           "calc_type": "number",
           "duration": 0,
           "amount": 4
-        }
-      ]
-    },
-    {
-      "item_id": "skill_1513",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "instant_reduce_hp",
-          "calc_type": "percent",
-          "duration": 0,
-          "amount": 8
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "burn",
-          "calc_type": "percent",
-          "reduce_type": "MAX",
-          "duration": 3,
-          "amount": 3
-        }
-      ]
-    },
-    {
-      "item_id": "skill_1514",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "instant_reduce_hp",
-          "calc_type": "percent",
-          "duration": 0,
-          "amount": 10
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "no_disperse": true,
-          "effect": "blaze",
-          "calc_type": "percent",
-          "reduce_type": "MAX",
-          "duration": 4,
-          "amount": 4
-        }
-      ]
-    },
-    {
-      "item_id": "skill_1511",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "burning",
-          "calc_type": "percent",
-          "reduce_type": "MAX",
-          "duration": 4,
-          "amount": 6
-        }
-      ]
-    },
-    {
-      "item_id": "skill_1512",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "burning",
-          "calc_type": "percent",
-          "reduce_type": "MAX",
-          "duration": 3,
-          "amount": 5
         }
       ]
     },
@@ -924,7 +697,7 @@
       ]
     },
     {
-      "item_id": "skill_3050",
+      "item_id": "skill_305",
       "effects": [
         {
           "is_passive": false,
@@ -937,7 +710,7 @@
       ]
     },
     {
-      "item_id": "skill_3060",
+      "item_id": "skill_306",
       "effects": [
         {
           "is_passive": false,
@@ -1148,7 +921,7 @@
       ]
     },
     {
-      "item_id": "skill_3210",
+      "item_id": "skill_321",
       "effects": [
         {
           "is_passive": false,
@@ -1296,27 +1069,6 @@
           "is_self_buff": false,
           "effect": "restriction",
           "calc_type": "number",
-          "duration": 10,
-          "amount": 0
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "reduce_hp",
-          "calc_type": "percent",
-          "duration": 3,
-          "amount": 60
-        }
-      ]
-    },
-    {
-      "item_id": "skill_5070",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "restriction",
-          "calc_type": "number",
           "duration": 3,
           "amount": 0
         },
@@ -1326,7 +1078,7 @@
           "effect": "reduce_hp",
           "calc_type": "percent",
           "duration": 3,
-          "amount": 8
+          "amount": 10
         }
       ]
     },
@@ -1627,78 +1379,6 @@
       ]
     },
     {
-      "item_id": "skill_10000",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": true,
-          "effect": "heal",
-          "calc_type": "number",
-          "duration": 0,
-          "amount": 2000
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": true,
-          "effect": "debuff_clear_next_turn",
-          "calc_type": "number",
-          "duration": 5,
-          "amount": 0
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": true,
-          "effect": "debuff_resist",
-          "calc_type": "number",
-          "duration": 5,
-          "amount": 0
-        }
-      ]
-    },
-    {
-      "item_id": "skill_10001",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "bleeding",
-          "calc_type": "percent",
-          "duration": 5,
-          "amount": 60
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "instant_reduce_hp",
-          "calc_type": "percent",
-          "reduce_type": "MAX",
-          "duration": 0,
-          "amount": 15
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "poison",
-          "calc_type": "percent",
-          "duration": 1,
-          "amount": 5
-        }
-      ]
-    },
-    {
-      "item_id": "skill_2185",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": true,
-          "effect": "strengthen",
-          "calc_type": "percent",
-          "duration": 3,
-          "amount": 100
-        }
-      ]
-    },
-    {
       "item_id": "skill_351",
       "effects": [
         {
@@ -1786,54 +1466,6 @@
       ]
     },
     {
-      "item_id": "skill_573",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": true,
-          "effect": "strengthen",
-          "calc_type": "percent",
-          "duration": 1,
-          "amount": 60
-        }
-      ]
-    },
-    {
-      "item_id": "skill_2190",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": true,
-          "effect": "cp_shield",
-          "calc_type": "number",
-          "duration": 2,
-          "amount": 60
-        },
-        {
-          "is_self_buff": true,
-          "is_debuff": false,
-          "effect": "regeneration",
-          "effect_name": "Regeneration",
-          "duration": 2,
-          "calc_type": "percent",
-          "amount": 25
-        }
-      ]
-    },
-    {
-      "item_id": "skill_574",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": true,
-          "effect": "strengthen",
-          "calc_type": "percent",
-          "duration": 2,
-          "amount": 75
-        }
-      ]
-    },
-    {
       "item_id": "skill_357",
       "effects": [
         {
@@ -1869,7 +1501,7 @@
       ]
     },
     {
-      "item_id": "skill_3590",
+      "item_id": "skill_359",
       "effects": [
         {
           "is_passive": false,
@@ -2016,7 +1648,7 @@
       ]
     },
     {
-      "item_id": "skill_3670",
+      "item_id": "skill_367",
       "effects": [
         {
           "is_passive": false,
@@ -2032,12 +1664,12 @@
           "effect": "disorient",
           "calc_type": "percent",
           "duration": 2,
-          "amount": 10
+          "amount": 25
         }
       ]
     },
     {
-      "item_id": "skill_3680",
+      "item_id": "skill_368",
       "effects": [
         {
           "is_passive": false,
@@ -2053,7 +1685,7 @@
           "effect": "bleeding",
           "calc_type": "percent",
           "duration": 3,
-          "amount": 30
+          "amount": 45
         }
       ]
     },
@@ -2135,7 +1767,7 @@
       ]
     },
     {
-      "item_id": "skill_3720",
+      "item_id": "skill_372",
       "effects": [
         {
           "is_passive": false,
@@ -2232,127 +1864,6 @@
           "duration": 10,
           "amount": 10,
           "amount_cp": 10
-        }
-      ]
-    },
-    {
-      "item_id": "skill_3760",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "no_disperse": true,
-          "effect": "disperse",
-          "calc_type": "number",
-          "duration": 0,
-          "amount": 0
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "no_disperse": true,
-          "effect": "reduce_hp_cp",
-          "calc_type": "percent",
-          "duration": 10,
-          "amount": 15,
-          "amount_cp": 15
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "no_disperse": true,
-          "effect": "internal_injury",
-          "calc_type": "number",
-          "duration": 10,
-          "amount": 0
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "instant_reduce_hp",
-          "calc_type": "percent",
-          "reduce_type": "MAX",
-          "duration": 0,
-          "amount": 8
-        },
-        {
-          "is_self_buff": true,
-          "is_debuff": false,
-          "effect": "taijutsu_strengthen",
-          "effect_name": "Taijutsu Strengthen",
-          "duration": 10,
-          "calc_type": "percent",
-          "amount": 100
-        },
-        {
-          "is_self_buff": true,
-          "is_debuff": false,
-          "effect": "extreme_mode",
-          "effect_name": "Extreme Mode",
-          "duration": 10,
-          "type": "normal",
-          "amount": 100
-        },
-        {
-          "is_self_buff": true,
-          "is_debuff": false,
-          "effect": "protection",
-          "effect_name": "Protection",
-          "duration": 10,
-          "calc_type": "percent",
-          "amount": 100
-        },
-        {
-          "is_self_buff": true,
-          "is_debuff": false,
-          "effect": "regeneration",
-          "effect_name": "Regeneration",
-          "duration": 10,
-          "calc_type": "percent",
-          "amount": 100
-        },
-        {
-          "is_self_buff": true,
-          "is_debuff": true,
-          "effect": "charge_disable",
-          "effect_name": "Charge Disable",
-          "duration": 10,
-          "calc_type": "percent",
-          "amount": 100
-        },
-        {
-          "is_self_buff": false,
-          "is_debuff": true,
-          "effect": "stun",
-          "effect_name": "Stun",
-          "duration": 10,
-          "calc_type": "number"
-        },
-        {
-          "is_self_buff": true,
-          "is_debuff": true,
-          "effect": "stun",
-          "effect_name": "Stun",
-          "duration": 10,
-          "calc_type": "number"
-        },
-        {
-          "is_self_buff": false,
-          "is_debuff": true,
-          "effect": "reduce_hp",
-          "effect_name": "Reduce HP",
-          "duration": 10,
-          "calc_type": "percent",
-          "amount": 10
-        },
-        {
-          "is_self_buff": true,
-          "is_debuff": false,
-          "effect": "increase_silhouette_chance",
-          "effect_name": "Increase Silhouette Chance",
-          "duration": 10,
-          "amount": 100,
-          "calc_type": "number"
         }
       ]
     },
@@ -2499,27 +2010,6 @@
     },
     {
       "item_id": "skill_384",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "instant_reduce_hp",
-          "calc_type": "percent",
-          "duration": 0,
-          "amount": 12
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "internal_injury",
-          "calc_type": "number",
-          "duration": 3,
-          "amount": 0
-        }
-      ]
-    },
-    {
-      "item_id": "skill_3840",
       "effects": [
         {
           "is_passive": false,
@@ -3157,27 +2647,6 @@
       ]
     },
     {
-      "item_id": "skill_8600",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "instant_reduce_hp",
-          "calc_type": "percent",
-          "duration": 0,
-          "amount": 15
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "internal_injury",
-          "calc_type": "number",
-          "duration": 4,
-          "amount": 0
-        }
-      ]
-    },
-    {
       "item_id": "skill_424",
       "effects": [
         {
@@ -3430,27 +2899,6 @@
           "calc_type": "percent",
           "duration": 3,
           "amount": 0
-        }
-      ]
-    },
-    {
-      "item_id": "skill_9950",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "disorient",
-          "calc_type": "percent",
-          "duration": 4,
-          "amount": 50
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "bleeding",
-          "calc_type": "percent",
-          "duration": 4,
-          "amount": 50
         }
       ]
     },
@@ -3850,10 +3298,9 @@
         {
           "is_passive": false,
           "is_self_buff": false,
-          "effect": "numb",
-          "calc_type": "percent",
-          "duration": 2,
-          "amount": 40
+          "effect": "chaos",
+          "calc_type": "number",
+          "duration": 1
         }
       ]
     },
@@ -3902,9 +3349,146 @@
           "is_self_buff": false,
           "effect": "instant_reduce_cp",
           "calc_type": "percent",
-          "reduce_type": "CURRENT",
+          "reduce_type": "MAX",
           "duration": 0,
           "amount_cp": 30
+        }
+      ]
+    },
+    {
+      "item_id": "skill_466",
+      "effects": [
+        {
+          "is_passive": false,
+          "is_self_buff": false,
+          "effect": "flaming",
+          "calc_type": "percent",
+          "duration": 3,
+          "amount": 5,
+          "amount_cp": 5
+        }
+      ]
+    },
+    {
+      "item_id": "skill_467",
+      "effects": [
+        {
+          "is_passive": false,
+          "is_self_buff": false,
+          "effect": "stun",
+          "calc_type": "number",
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "item_id": "skill_468",
+      "effects": [
+        {
+          "is_passive": false,
+          "is_self_buff": false,
+          "effect": "disorient",
+          "calc_type": "percent",
+          "duration": 4,
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "item_id": "skill_469",
+      "effects": [
+        {
+          "is_passive": false,
+          "is_self_buff": false,
+          "effect": "vulnerable",
+          "calc_type": "percent",
+          "duration": 3,
+          "amount": 30
+        }
+      ]
+    },
+    {
+      "item_id": "skill_470",
+      "effects": [
+        {
+          "is_passive": false,
+          "is_self_buff": false,
+          "effect": "darkness",
+          "calc_type": "percent",
+          "duration": 2,
+          "amount": 50
+        }
+      ]
+    },
+    {
+      "item_id": "skill_471",
+      "effects": [
+        {
+          "is_passive": false,
+          "is_self_buff": true,
+          "effect": "flexible",
+          "calc_type": "number",
+          "duration": 1,
+          "amount": 100
+        }
+      ]
+    },
+    {
+      "item_id": "skill_472",
+      "effects": [
+        {
+          "is_passive": false,
+          "is_self_buff": false,
+          "effect": "slow",
+          "calc_type": "percent",
+          "duration": 2,
+          "amount": 45
+        }
+      ]
+    },
+    {
+      "item_id": "skill_473",
+      "effects": [
+        {
+          "is_passive": false,
+          "is_self_buff": true,
+          "effect": "regeneration",
+          "calc_type": "percent",
+          "duration": 5,
+          "amount": 7
+        }
+      ]
+    },
+    {
+      "item_id": "skill_474",
+      "effects": [
+        {
+          "is_passive": false,
+          "is_self_buff": false,
+          "effect": "disperse",
+          "calc_type": "number",
+          "duration": 0,
+          "amount": 0
+        },
+        {
+          "is_passive": false,
+          "is_self_buff": false,
+          "effect": "internal_injury",
+          "calc_type": "number",
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "item_id": "skill_475",
+      "effects": [
+        {
+          "is_passive": false,
+          "is_self_buff": false,
+          "effect": "blind",
+          "calc_type": "percent",
+          "duration": 2,
+          "amount": 55
         }
       ]
     },
@@ -8313,79 +7897,6 @@
       ]
     },
     {
-      "item_id": "skill_368",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "internal_injury",
-          "calc_type": "number",
-          "duration": 10
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "instant_reduce_cp",
-          "calc_type": "percent",
-          "reduce_type": "MAX",
-          "duration": 0,
-          "amount": 20
-        }
-      ]
-    },
-    {
-      "item_id": "skill_359",
-      "effects": [
-        {
-          "is_self_buff": false,
-          "is_debuff": true,
-          "effect": "barrier",
-          "effect_name": "Barrier",
-          "duration": 5,
-          "calc_type": "percent",
-          "amount": 100
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "bleeding",
-          "calc_type": "percent",
-          "duration": 5,
-          "amount": 50
-        }
-      ]
-    },
-    {
-      "item_id": "skill_372",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "meridian_seal",
-          "calc_type": "number",
-          "duration": 4,
-          "amount": 0
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "oblivion",
-          "calc_type": "number",
-          "duration": 0,
-          "amount": 4
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "instant_reduce_cp",
-          "calc_type": "percent",
-          "reduce_type": "MAX",
-          "duration": 0,
-          "amount": 100
-        }
-      ]
-    },
-    {
       "item_id": "skill_915",
       "effects": [
         {
@@ -9775,363 +9286,6 @@
       ]
     },
     {
-      "item_id": "skill_367",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "no_disperse": true,
-          "effect": "stun",
-          "calc_type": "number",
-          "duration": 5,
-          "amount": 0
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "disperse",
-          "calc_type": "number",
-          "duration": 0,
-          "amount": 0
-        }
-      ]
-    },
-    {
-      "item_id": "skill_305",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": true,
-          "effect": "full_critical",
-          "calc_type": "percent"
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": true,
-          "effect": "lightning_armor",
-          "calc_type": "percent",
-          "duration": 4,
-          "amount": 60
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": true,
-          "effect": "debuff_resist",
-          "calc_type": "number",
-          "duration": 4,
-          "amount": 0
-        }
-      ]
-    },
-    {
-      "item_id": "skill_9001",
-      "effects": [
-        {
-          "is_self_buff": false,
-          "is_debuff": true,
-          "effect": "weaken",
-          "effect_name": "Weaken",
-          "duration": 3,
-          "calc_type": "percent",
-          "amount": 50
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "slow",
-          "calc_type": "percent",
-          "duration": 3,
-          "amount": 50
-        }
-      ]
-    },
-    {
-      "item_id": "skill_321",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "no_disperse": true,
-          "effect": "disperse",
-          "calc_type": "number",
-          "duration": 0,
-          "amount": 0
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "no_disperse": true,
-          "effect": "reduce_hp_cp",
-          "calc_type": "percent",
-          "duration": 10,
-          "amount": 15,
-          "amount_cp": 15
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "no_disperse": true,
-          "effect": "internal_injury",
-          "calc_type": "number",
-          "duration": 10,
-          "amount": 0
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "instant_reduce_hp",
-          "calc_type": "percent",
-          "reduce_type": "MAX",
-          "duration": 0,
-          "amount": 8
-        },
-        {
-          "is_self_buff": true,
-          "is_debuff": false,
-          "effect": "taijutsu_strengthen",
-          "effect_name": "Taijutsu Strengthen",
-          "duration": 10,
-          "calc_type": "percent",
-          "amount": 100
-        },
-        {
-          "is_self_buff": true,
-          "is_debuff": false,
-          "effect": "extreme_mode",
-          "effect_name": "Extreme Mode",
-          "duration": 10,
-          "type": "normal",
-          "amount": 100
-        },
-        {
-          "is_self_buff": true,
-          "is_debuff": false,
-          "effect": "protection",
-          "effect_name": "Protection",
-          "duration": 10,
-          "calc_type": "percent",
-          "amount": 100
-        },
-        {
-          "is_self_buff": true,
-          "is_debuff": false,
-          "effect": "regeneration",
-          "effect_name": "Regeneration",
-          "duration": 10,
-          "calc_type": "percent",
-          "amount": 100
-        },
-        {
-          "is_self_buff": true,
-          "is_debuff": true,
-          "effect": "charge_disable",
-          "effect_name": "Charge Disable",
-          "duration": 10,
-          "calc_type": "percent",
-          "amount": 100
-        },
-        {
-          "is_self_buff": false,
-          "is_debuff": true,
-          "effect": "stun",
-          "effect_name": "Stun",
-          "duration": 10,
-          "calc_type": "number"
-        },
-        {
-          "is_self_buff": true,
-          "is_debuff": true,
-          "effect": "stun",
-          "effect_name": "Stun",
-          "duration": 10,
-          "calc_type": "number"
-        },
-        {
-          "is_self_buff": false,
-          "is_debuff": true,
-          "effect": "reduce_hp",
-          "effect_name": "Reduce HP",
-          "duration": 10,
-          "calc_type": "percent",
-          "amount": 10
-        },
-        {
-          "is_self_buff": true,
-          "is_debuff": false,
-          "effect": "increase_silhouette_chance",
-          "effect_name": "Increase Silhouette Chance",
-          "duration": 10,
-          "amount": 100,
-          "calc_type": "number"
-        }
-      ]
-    },
-    {
-      "item_id": "skill_306",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "instant_reduce_hp",
-          "calc_type": "percent",
-          "reduce_type": "MAX",
-          "duration": 0,
-          "amount": 30
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "instant_reduce_cp",
-          "calc_type": "percent",
-          "reduce_type": "MAX",
-          "duration": 0,
-          "amount": 30
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "disperse",
-          "calc_type": "number",
-          "duration": 0,
-          "amount": 0
-        }
-      ]
-    },
-    {
-      "item_id": "skill_7000",
-      "effects": [
-        {
-          "is_self_buff": false,
-          "is_debuff": true,
-          "effect": "chaos",
-          "effect_name": "Chaos",
-          "duration": 2,
-          "calc_type": "number",
-          "amount": 0
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "disperse",
-          "calc_type": "number",
-          "duration": 0,
-          "amount": 0
-        }
-      ]
-    },
-    {
-      "item_id": "skill_7001",
-      "effects": [
-        {
-          "is_self_buff": false,
-          "is_debuff": true,
-          "effect": "chaos",
-          "effect_name": "Chaos",
-          "duration": 4,
-          "calc_type": "number",
-          "amount": 0
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "disperse",
-          "calc_type": "number",
-          "duration": 0,
-          "amount": 0
-        }
-      ]
-    },
-    {
-      "item_id": "skill_7002",
-      "effects": [
-        {
-          "is_self_buff": false,
-          "is_debuff": true,
-          "effect": "slow",
-          "effect_name": "Slow",
-          "duration": 3,
-          "calc_type": "percent",
-          "amount": 50
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "bleeding",
-          "calc_type": "percent",
-          "duration": 3,
-          "amount": 90
-        }
-      ]
-    },
-    {
-      "item_id": "skill_7003",
-      "effects": [
-        {
-          "is_self_buff": false,
-          "is_debuff": true,
-          "effect": "slow",
-          "effect_name": "Slow",
-          "duration": 4,
-          "calc_type": "percent",
-          "amount": 65
-        },
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "bleeding",
-          "calc_type": "percent",
-          "duration": 4,
-          "amount": 100
-        }
-      ]
-    },
-    {
-      "item_id": "skill_6001",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "instant_reduce_hp",
-          "calc_type": "percent",
-          "reduce_type": "MAX",
-          "duration": 0,
-          "amount": 10
-        },
-        {
-          "is_self_buff": false,
-          "is_debuff": true,
-          "effect": "weaken",
-          "effect_name": "Weaken",
-          "duration": 4,
-          "calc_type": "percent",
-          "amount": 50
-        }
-      ]
-    },
-    {
-      "item_id": "skill_6002",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "instant_reduce_hp",
-          "calc_type": "percent",
-          "reduce_type": "MAX",
-          "duration": 0,
-          "amount": 12
-        },
-        {
-          "is_self_buff": false,
-          "is_debuff": true,
-          "effect": "weaken",
-          "effect_name": "Weaken",
-          "duration": 5,
-          "calc_type": "percent",
-          "amount": 80
-        }
-      ]
-    },
-    {
       "item_id": "skill_1204",
       "effects": [
         {
@@ -10142,12 +9296,11 @@
           "duration": 3
         },
         {
-          "is_passive": false,
+          "is_debuff": false,
           "is_self_buff": true,
-          "effect": "cp_shield",
+          "effect": "cp_guard",
           "calc_type": "number",
-          "duration": 2,
-          "amount": 100
+          "duration": 2
         },
         {
           "is_passive": false,
@@ -10171,12 +9324,12 @@
           "duration": 2
         },
         {
-          "is_passive": false,
+          "is_debuff": false,
           "is_self_buff": true,
-          "effect": "cp_shield",
+          "effect": "cp_guard",
           "calc_type": "number",
-          "duration": 4,
-          "amount": 100
+          "amount_cp": 100,
+          "duration": 4
         },
         {
           "is_passive": false,
@@ -10318,74 +9471,6 @@
       ]
     },
     {
-      "item_id": "skill_10820",
-      "effects": [
-        {
-          "is_self_buff": false,
-          "is_debuff": true,
-          "effect": "weaken",
-          "effect_name": "Weaken",
-          "duration": 3,
-          "calc_type": "percent",
-          "amount": 70
-        },
-        {
-          "is_self_buff": false,
-          "is_debuff": true,
-          "effect": "slow",
-          "effect_name": "Slow",
-          "duration": 3,
-          "calc_type": "percent",
-          "amount": 30
-        }
-      ]
-    },
-    {
-      "item_id": "skill_10320",
-      "effects": [
-        {
-          "is_self_buff": true,
-          "is_debuff": false,
-          "no_disperse": true,
-          "effect": "protection",
-          "effect_name": "Protection",
-          "duration": 3,
-          "calc_type": "percent",
-          "amount": 75
-        },
-        {
-          "is_self_buff": true,
-          "is_debuff": false,
-          "no_disperse": true,
-          "effect": "reduce_cp_consumption",
-          "effect_name": "Reduce CP Consumption",
-          "duration": 3,
-          "calc_type": "percent",
-          "amount": 55
-        },
-        {
-          "is_self_buff": true,
-          "is_debuff": false,
-          "no_disperse": true,
-          "effect": "illuminated_chakra_mode",
-          "duration": 3
-        },
-        {
-          "is_self_buff": true,
-          "is_debuff": false,
-          "effect": "self_disperse_all",
-          "effect_name": "Disperse All"
-        },
-        {
-          "is_self_buff": true,
-          "is_debuff": false,
-          "effect": "recover_hp_cp",
-          "effect_name": "Recover HP CP",
-          "amount": 30
-        }
-      ]
-    },
-    {
       "item_id": "skill_1211",
       "effects": [
         {
@@ -10396,80 +9481,6 @@
           "calc_type": "percent",
           "duration": 0,
           "amount": 15
-        }
-      ]
-    },
-    {
-      "item_id": "skill_2161",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": false,
-          "effect": "flaming",
-          "calc_type": "percent",
-          "duration": 3,
-          "amount": 15
-        },
-        {
-          "is_passive":  false,
-          "is_self_buff": true,
-          "no_disperse": true,
-          "effect": "cp_cost",
-          "calc_type": "percent",
-          "duration":  5,
-          "amount": 0
-        }
-      ]
-    },
-    {
-      "item_id": "skill_10330",
-      "effects": [
-        {
-          "is_self_buff": false,
-          "is_debuff": true,
-          "effect": "burn",
-          "effect_name": "Burn",
-          "duration": 3,
-          "calc_type": "percent",
-          "amount": 5
-        }
-      ]
-    },
-    {
-      "item_id": "skill_10340",
-      "effects": [
-        {
-          "is_self_buff": false,
-          "is_debuff": true,
-          "effect": "chaos",
-          "effect_name": "Chaos",
-          "duration": 3,
-          "calc_type": "number",
-          "amount": 0
-        }
-      ]
-    },
-    {
-      "item_id": "skill_10350",
-      "effects": [
-        {
-          "is_self_buff": false,
-          "is_debuff": true,
-          "effect": "instant_reduce_cp",
-          "effect_name": "Reduce CP",
-          "duration": 0,
-          "calc_type": "percent",
-          "amount": 20,
-          "amount_cp": 20
-        },
-        {
-          "is_self_buff": false,
-          "is_debuff": true,
-          "effect": "disperse",
-          "effect_name": "Disperse",
-          "duration": 0,
-          "calc_type": "percent",
-          "amount": 100
         }
       ]
     },
@@ -10491,50 +9502,82 @@
       "effects": [
         {
           "is_passive": false,
-          "is_self_buff": true,
-          "effect": "debuff_clear_next_turn",
-          "calc_type": "number",
-          "duration": 4,
-          "amount": 0
+          "is_self_buff": false,
+          "effect": "buff_negate",
+          "duration": 4
         }
       ]
     },
     {
-      "item_id": "skill_2000",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": true,
-          "effect": "heal",
-          "calc_type": "number",
-          "duration": 0,
-          "amount": 1000
-        }
-      ]
-    },
-    {
-      "item_id": "skill_2001",
-      "effects": [
-        {
-          "is_passive": false,
-          "is_self_buff": true,
-          "effect": "debuff_clear",
-          "calc_type": "number",
-          "duration": 0,
-          "amount": 0
-        }
-      ]
-    },
-    {
-      "item_id": "skill_2002",
+      "item_id": "skill_1511",
       "effects": [
         {
           "is_passive": false,
           "is_self_buff": false,
-          "effect": "weaken",
+          "effect": "burning",
           "calc_type": "percent",
-          "duration": 2,
-          "amount": 100
+          "reduce_type": "MAX",
+          "duration": 4,
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "item_id": "skill_1512",
+      "effects": [
+        {
+          "is_passive": false,
+          "is_self_buff": false,
+          "effect": "burning",
+          "calc_type": "percent",
+          "reduce_type": "MAX",
+          "duration": 3,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "item_id": "skill_1513",
+      "effects": [
+        {
+          "is_passive": false,
+          "is_self_buff": false,
+          "effect": "instant_reduce_hp",
+          "calc_type": "percent",
+          "duration": 0,
+          "amount": 8
+        },
+        {
+          "is_passive": false,
+          "is_self_buff": false,
+          "effect": "burn",
+          "calc_type": "percent",
+          "reduce_type": "MAX",
+          "duration": 3,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "item_id": "skill_1514",
+      "effects": [
+        {
+          "is_passive": false,
+          "is_self_buff": false,
+          "effect": "instant_reduce_hp",
+          "calc_type": "percent",
+          "duration": 0,
+          "amount": 10
+        },
+        {
+          "is_passive": false,
+          "is_self_buff": false,
+          "no_disperse": true,
+          "effect": "blaze",
+          "calc_type": "percent",
+          "reduce_type": "MAX",
+          "duration": 4,
+          "amount": 4
         }
       ]
     },
@@ -10550,20 +9593,136 @@
           "duration": 0,
           "amount": 15
         },
-        { "is_passive": false,
+        {
+          "is_passive": false,
           "is_self_buff": false,
           "effect": "bleeding",
           "calc_type": "percent",
           "duration": 1,
           "amount": 90
+        }
+      ]
+    },
+    {
+      "item_id": "skill_4001",
+      "effects": [
+        {
+          "is_passive": false,
+          "is_self_buff": false,
+          "effect": "instant_reduce_cp",
+          "calc_type": "percent",
+          "reduce_type": "MAX",
+          "duration": 0,
+          "amount": 10
         },
         {
           "is_passive": false,
           "is_self_buff": false,
-          "effect": "reduce_hp",
+          "effect": "bleeding",
+          "calc_type": "percent",
+          "duration": 1,
+          "amount": 75
+        }
+      ]
+    },
+    {
+      "item_id": "skill_4002",
+      "effects": [
+        {
+          "is_passive": false,
+          "is_self_buff": false,
+          "effect": "instant_reduce_cp",
+          "calc_type": "percent",
+          "reduce_type": "CURRENT",
+          "duration": 0,
+          "amount": 10
+        },
+        {
+          "is_passive": false,
+          "is_self_buff": false,
+          "effect": "bleeding",
+          "calc_type": "percent",
+          "duration": 1,
+          "amount": 60
+        }
+      ]
+    },
+    {
+      "item_id": "skill_2161",
+      "effects": [
+        {
+          "is_passive": false,
+          "is_self_buff": false,
+          "effect": "flaming",
           "calc_type": "percent",
           "duration": 3,
-          "amount": 50
+          "amount": 15
+        },
+        {
+          "is_passive":  true,
+          "is_self_buff": true,
+          "no_disperse": true,
+          "effect": "cp_cost",
+          "calc_type": "percent",
+          "duration":  5,
+          "amount": 0
+      }
+    ]
+  },
+	{
+      "item_id": "skill_2162",
+      "effects": [
+        {
+          "is_passive": false,
+          "is_self_buff": false,
+          "effect": "meridian_seal",
+          "calc_type": "number",
+          "duration": 4,
+          "amount": 0
+        },
+        {
+          "is_passive": false,
+          "is_self_buff": false,
+          "effect": "oblivion",
+          "calc_type": "number",
+          "duration": 0,
+          "amount": 4
+        },
+        {
+          "is_passive": false,
+          "is_self_buff": false,
+          "effect": "instant_reduce_cp",
+          "calc_type": "percent",
+          "reduce_type": "MAX",
+          "duration": 0,
+          "amount": 100
+        }
+      ]
+    },
+    {
+      "item_id": "skill_2000",
+      "effects": [
+        {
+          "is_passive": false,
+          "is_self_buff": true,
+          "effect": "heal",
+          "calc_type": "number",
+          "duration": 0,
+          "amount": 70,
+          "recalc_amount_formula": "LVxAMT-3210"
+        }
+      ]
+    },
+    {
+      "item_id": "skill_2001",
+      "effects": [
+        {
+          "is_passive": false,
+          "is_self_buff": true,
+          "effect": "debuff_clear",
+          "calc_type": "number",
+          "duration": 0,
+          "amount": 0
         }
       ]
     },
